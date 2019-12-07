@@ -20,4 +20,7 @@ filetype indent on
 filetype plugin on
 
 call plug#begin('~/.vim/plugged')
+Plug 'vim-airline/vim-airline'
+Plug 'scrooloose/nerdtree'
+call plug#end()
 
