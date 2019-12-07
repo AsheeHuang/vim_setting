@@ -23,5 +23,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdtree'
 Plug 'majutsushi/tagbar'
+Plug 'jiangmiao/auto-pairs'
 call plug#end()
+
+
 
