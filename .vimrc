@@ -22,5 +22,6 @@ filetype plugin on
 call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdtree'
+Plug 'majutsushi/tagbar'
 call plug#end()
 
