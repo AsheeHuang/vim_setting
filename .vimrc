@@ -15,16 +15,23 @@ set shiftwidth=4
 set splitbelow
 set splitright
 
+set showtabline=2 
+
 filetype on
 filetype indent on
 filetype plugin on
+
+set notagbsearch
 
 call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdtree'
 Plug 'majutsushi/tagbar'
 Plug 'jiangmiao/auto-pairs'
+Plug 'vim-syntastic/syntastic'
+Plug 'terryma/vim-multiple-cursors'
 call plug#end()
+
 
 
 
