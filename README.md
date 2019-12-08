@@ -5,6 +5,8 @@
     $ cd ~
     $ git clone https://github.com/AsheeHuang/vim_setting
     $ ln -s .vim/vimrc .vimrc
+###Setup YouCompleteMe Plugin
+    $ According to <https://github.com/ycm-core/YouCompleteMe#full-installation-guide>
 
 ## Shortcut
 
