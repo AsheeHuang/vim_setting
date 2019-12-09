@@ -4,7 +4,7 @@
 
     $ cd ~
     $ git clone https://github.com/AsheeHuang/vim_setting
-    $ ln -s .vim/vimrc .vimrc
+    $ ln -s .vim/.vimrc .vimrc
 ### Setup YouCompleteMe Plugin
     $ https://github.com/ycm-core/YouCompleteMe#full-installation-guide
 
