@@ -30,5 +30,4 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'vim-syntastic/syntastic'
 Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdcommenter'
-Plug 'ycm-core/YouCompleteMe'
 call plug#end()
