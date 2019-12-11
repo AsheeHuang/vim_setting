@@ -1,9 +1,11 @@
 syntax on
+syntax enable
 set nu
 set hlsearch
 set nowrap
 set ruler
 set cursorline
+set incsearch
 
 set nocompatible
 set clipboard=unnamed
@@ -11,12 +13,13 @@ set clipboard=unnamed
 set scrolloff=3
 set softtabstop=4
 set shiftwidth=4
+set autoindent
 
 set splitbelow
 set splitright
-
 set showtabline=2
 set notagbsearch
+
 
 filetype on
 filetype indent on
@@ -30,4 +33,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'vim-syntastic/syntastic'
 Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdcommenter'
+Plug 'ycm-core/YouCompleteMe'
+Plug 'ternjs/tern_for_vim'
 call plug#end()
+
