@@ -3,8 +3,9 @@
 ## Setup
 
     $ cd ~
-    $ git clone https://github.com/AsheeHuang/vim_setting
+    $ git clone https://github.com/AsheeHuang/vim_setting .vim
     $ ln -s .vim/.vimrc .vimrc
+    
 ### Setup YouCompleteMe Plugin
     $ cd ~/.vim/plugged/
     $ git clone https://github.com/ycm-core/YouCompleteMe.git
