@@ -5,6 +5,8 @@
     $ cd ~
     $ git clone https://github.com/AsheeHuang/vim_setting .vim
     $ ln -s .vim/.vimrc .vimrc
+    $ vim
+    $ :PlugInstall
     
 ### Setup YouCompleteMe Plugin
     $ cd ~/.vim/plugged/
