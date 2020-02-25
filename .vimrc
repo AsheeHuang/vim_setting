@@ -20,6 +20,8 @@ set splitright
 set showtabline=2
 set notagbsearch
 
+highlight link SyntasticError Error
+highlight Search ctermfg=Black
 
 filetype on
 filetype indent on
