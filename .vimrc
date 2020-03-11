@@ -6,6 +6,13 @@ set nowrap
 set ruler
 set cursorline
 set incsearch
+set smartcase
+highlight Cursor guifg=white guibg=black
+highlight iCursor guifg=white guibg=steelblue
+set guicursor=n-v-c:block-Cursor
+set guicursor+=i:ver100-iCursor
+set guicursor+=n-v-c:blinkon0
+set guicursor+=i:blinkwait10
 
 set nocompatible
 set clipboard=unnamed
@@ -19,7 +26,9 @@ set splitbelow
 set splitright
 set showtabline=2
 set notagbsearch
+set background=dark
 
+set t_Co=256
 
 filetype on
 filetype indent on
@@ -33,6 +42,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdcommenter'
 Plug 'ycm-core/YouCompleteMe'
-Plug 'ternjs/tern_for_vim'
+Plug '/usr/local/opt/fzf'
+Plug 'junegunn/fzf'
 call plug#end()
 
