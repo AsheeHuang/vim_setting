@@ -1,6 +1,6 @@
-let g:ycm_global_ycm_extra_conf = '~/.vim/plugged/YouCompleteMe/third_party/ycmd/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 "let g:loaded_youcomleteme = 1
-"停止載入_conf文件
+let g:ycm_show_diagnostics_ui = 0
 let g:ycm_confirm_extra_conf = 0
 " 语法关键字补全
 let g:ycm_seed_identifiers_with_syntax = 1

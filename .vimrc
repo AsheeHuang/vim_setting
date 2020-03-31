@@ -28,6 +28,8 @@ set showtabline=2
 set notagbsearch
 set background=dark
 
+set noswapfile
+
 set t_Co=256
 
 filetype on
@@ -42,6 +44,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdcommenter'
 Plug 'ycm-core/YouCompleteMe'
+Plug 'terryma/vim-multiple-cursors'
 Plug '/usr/local/opt/fzf'
 Plug 'junegunn/fzf'
 call plug#end()
