@@ -13,6 +13,7 @@ set guicursor=n-v-c:block-Cursor
 set guicursor+=i:ver100-iCursor
 set guicursor+=n-v-c:blinkon0
 set guicursor+=i:blinkwait10
+set encoding=utf-8
 
 set tags+=/synosrc/packages/source/tags,/synosrc/ds.base/source/tags
 
@@ -43,14 +44,13 @@ call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'scrooloose/nerdtree'
 Plug 'majutsushi/tagbar'
-Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdcommenter'
-Plug 'ycm-core/YouCompleteMe'
 Plug 'terryma/vim-multiple-cursors'
-Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all'  } 
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all'  }
 Plug 'junegunn/fzf.vim'
-Plug 'posva/vim-vue'
 Plug 'vim-scripts/taglist.vim'
+Plug 'dense-analysis/ale', { 'on':  'ALEToggle' }
+Plug 'christoomey/vim-tmux-navigator'
 call plug#end()
 
