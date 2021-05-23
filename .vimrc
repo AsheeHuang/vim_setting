@@ -52,5 +52,6 @@ Plug 'junegunn/fzf.vim'
 Plug 'vim-scripts/taglist.vim'
 Plug 'dense-analysis/ale', { 'on':  'ALEToggle' }
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'preservim/vimux'
 call plug#end()
 
